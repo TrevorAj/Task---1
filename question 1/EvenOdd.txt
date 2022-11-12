@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class EvenOdd {
+
+    public static void main(String[] args) {
+
+
+
+Scanner sc= new Scanner(System.in);
+//System.in is a standard input stream.
+System.out.print("Enter name: ");
+//reads string.
+String str= sc.nextLine();
+       
+       
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter age: ");
+        int num = reader.nextInt();
+
+        if(num % 2 == 0)
+            System.out.println(num + "years is even");
+        else
+            System.out.println(num + "years is odd");
+    }
+}
